@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+}
+header {
+  padding-left: 20px;
+  padding-right: 20px;
+ position: fixed;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+.navbar {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  flex-basis: 10%;
+}
+.links {
+  display: flex;
+  list-style: none;
+}
+.container{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 33px;
+    margin-bottom: 60px;
+}
+h1 {
+  text-align: center;
+  padding-top: 34px;
+  padding-bottom: 34px;
+  color: #00b39b;
+}
+.lead__logo {
+  text-align: center;
+}
+
+.colon-2 {
+  
+  margin-top: 12.8px;
+  margin-bottom: 12.8px;
+  padding:10px ;
+  width: 40%;
+  color: #747474;
+
+  text-align: justify;
+  text-justify: inter-word;
+  
+  display: inline-block;
+  
+}
+
+.screen{
+  margin-top: -36.800;
+  margin-left: 143.188;
+  
+}
+
+
+.container-2{
+  display:flex;
+  
+    padding: 1.375em 2.5em 0;
+    overflow: hidden;
+    justify-content: space-evenly;
+}
+.img1 {
+  width: 300px;
+}
+h3{
+  color: #00b39b;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 300 !important;
+    letter-spacing: .3px !important;
+    margin-top: 6.5px!important;
+    margin-bottom: 9.1px!important;
+    padding-right: 26px!important;
+}
+.image{
+  display: flex;
+}
+.block-1{
+  background: #00b39b;
+  border-radius: 10px;
+  padding: 10px;
+}
+.block-2{
+  background: #3d83df;
+  border-radius: 10px;
+  padding: 10px;
+  
+}
+.brands{
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+ul{
+display: flex;
+list-style: none;
+    
+}
+li{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  
+  
+}
+.main-footer{
+  border-top: 1;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-top: 1px solid #eef2f2;
+    font-size: .75em;
+    color: #ababab;
+    text-align: center;
+    padding: 1em 0;
+}
+.section{
+  display: flex;
+}
+.col-2{
+  
+  padding: 10px;
+  width: 50%;
+  
+}
+.stats__item{
+  padding: 15px;
+  height: 300px;
+}
+
+.vert-align{
+  height: 10%;
+  text-align: center;
+  width: 100px;
+}
+.grid stats__grid fade-elements{
+  display: flex;
+}
+.offices__slider{
+  display: flex;
+}
