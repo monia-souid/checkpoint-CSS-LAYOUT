@@ -24,41 +24,32 @@
         /></a>
 
         <ul class="navbar">
-          <li><a href="https://www.docplanner.com/about-us">About us</a></li>
-          <li><a href="https://www.docplanner.com/career">Career</a></li>
-          <li>
-            <a class="links">Departments</a>
-            <div>
-              <ul>
-                <li>
-                  <a href="https://www.docplanner.com/department?dep=marketing"
-                    >Marketing & PR</a
-                  >
-                </li>
-                <li>
-                  <a href="https://www.docplanner.com/department?dep=customer"
-                    >Customer Success & Sales</a
-                  >
-                </li>
-                <li>
-                  <a href="https://www.docplanner.com/department?dep=it"
-                    >IT, Product, Data</a
-                  >
-                </li>
-                <li>
-                  <a href="https://www.docplanner.com/department?dep=finance"
-                    >Finance & Administration</a
-                  >
-                </li>
+          <li><a class="about-us" href="https://www.docplanner.com/about-us">About us</a></li>
+          <li><a class="career" href="https://www.docplanner.com/career">Career</a></li>
+          <div class="dropdown">
+            <li class="dropbtn">Departments</li>
+            <div class="dropdown-content">
+              <a href="https://www.docplanner.com/department?dep=marketing"
+                >Marketing & PR</a
+              >
 
-                <li>
-                  <a href="https://www.docplanner.com/department?dep=hr"
-                    >HR & more</a
-                  >
-                </li>
-              </ul>
+              <a href="https://www.docplanner.com/department?dep=customer"
+                >Customer Success & Sales</a
+              >
+
+              <a href="https://www.docplanner.com/department?dep=it"
+                >IT, Product, Data</a
+              >
+
+              <a href="https://www.docplanner.com/department?dep=finance"
+                >Finance & Administration</a
+              >
+
+              <a href="https://www.docplanner.com/department?dep=hr"
+                >HR & more</a
+              >
             </div>
-          </li>
+          </div>
         </ul>
       </div>
     </header>
@@ -74,7 +65,7 @@
           />
         </div>
         <h1>Making the healthcare experience more human</h1>
-        <div>
+        <div class="text">
           <div class="colon-2">
             <p>
               We want patients to find the perfect doctor and book an
@@ -216,16 +207,16 @@
       </section>
       <section class="statistic">
         <div class="section">
-          <div class="col-2 static">
+          <div class="static">
             <h3>The world's biggest healthcare platform</h3>
             <p>
               We work from 6 offices all over the world, bringing Docplanner
               Group to life in a dozen countries.
             </p>
           </div>
-          <div class="col-2">
+          <div class="">
             <div class="grid stats__grid fade-elements">
-              <div class="col-2 fade-elements__visible">
+              <div class="fade-elements__visible">
                 <div class="stats__item">
                   <div class="vert-align">
                     <div>
@@ -245,7 +236,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-2 fade-elements__visible">
+              <div class="fade-elements__visible">
                 <div class="stats__item">
                   <div class="vert-align">
                     <div>
@@ -262,7 +253,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-2 fade-elements__visible">
+              <div class="fade-elements__visible">
                 <div class="stats__item">
                   <div class="vert-align">
                     <div>
@@ -279,7 +270,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-2 fade-elements__visible">
+              <div class="fade-elements__visible">
                 <div class="stats__item">
                   <div class="vert-align">
                     <div>
@@ -301,7 +292,7 @@
         </div>
       </section>
       <section>
-        <div>
+        <div class="improve">
           <h1>Improve the lives of millions. Change yours forever</h1>
           <p>
             More than 1300 team mates share our same vision, goals and passion.
@@ -311,75 +302,111 @@
         </div>
         <div class="offices__slider">
           <div class="office">
-      <a href="/career?&amp;loc=poland#jobs-offers" class="office__inner">
-        <figure class="office__image">
-          <img scr="https://www.docplanner.com/images/warsaw.png" srcset="https://www.docplanner.com/images/warsaw.png 1x, https://www.docplanner.com/images/warsaw@2x.png 2x">
-        </figure>
-        <div class="office__desc">
-          Warsaw
-          <span class="btn btn--small">See openings</span>
-        </div>
-      </a>
-    </div>
+            <a href="/career?&amp;loc=poland#jobs-offers" class="office__inner">
+              <figure class="office__image">
+                <img
+                  scr="https://www.docplanner.com/images/warsaw.png"
+                  srcset="
+                    https://www.docplanner.com/images/warsaw.png    1x,
+                    https://www.docplanner.com/images/warsaw@2x.png 2x
+                  "
+                />
+              </figure>
+              <div class="office__desc">
+                <span>Warsaw</span>
+                <button class="btn btn-primary btn-sm">See openings</button>
+              </div>
+            </a>
+          </div>
           <div class="office">
-      <a href="/career?&amp;loc=spain#jobs-offers" class="office__inner">
-        <figure class="office__image">
-          <img scr="https://www.docplanner.com/images/barcelona.png" srcset="https://www.docplanner.com/images/barcelona.png 1x, https://www.docplanner.com/images/barcelona@2x.png 2x">
-        </figure>
-        <div class="office__desc">
-          Barcelona
-          <span class="btn btn--small">See openings</span>
-        </div>
-      </a>
-    </div>
+            <a href="/career?&amp;loc=spain#jobs-offers" class="office__inner">
+              <figure class="office__image">
+                <img
+                  scr="https://www.docplanner.com/images/barcelona.png"
+                  srcset="
+                    https://www.docplanner.com/images/barcelona.png    1x,
+                    https://www.docplanner.com/images/barcelona@2x.png 2x
+                  "
+                />
+              </figure>
+              <div class="office__desc">
+                <span>Barcelona</span>
+                <button class="btn btn-primary btn-sm">See openings</button>
+              </div>
+            </a>
+          </div>
           <div class="office">
-      <a href="/career?&amp;loc=rome#jobs-offers" class="office__inner">
-        <figure class="office__image">
-          <img scr="https://www.docplanner.com/images/istanbul.png" srcset="https://www.docplanner.com/images/istanbul.png 1x, https://www.docplanner.com/images/istanbul@2x.png 2x">
-        </figure>
-        <div class="office__desc">
-          Istanbul
-          <span class="btn btn--small">See openings</span>
-        </div>
-      </a>
-    </div>
+            <a href="/career?&amp;loc=rome#jobs-offers" class="office__inner">
+              <figure class="office__image">
+                <img
+                  scr="https://www.docplanner.com/images/istanbul.png"
+                  srcset="
+                    https://www.docplanner.com/images/istanbul.png    1x,
+                    https://www.docplanner.com/images/istanbul@2x.png 2x
+                  "
+                />
+              </figure>
+              <div class="office__desc">
+                <span>Istanbul</span>
+                <button class="btn btn-primary btn-sm">See openings</button>
+              </div>
+            </a>
+          </div>
           <div class="office">
-      <a href="/career?&amp;loc=italy#jobs-offers" class="office__inner">
-        <figure class="office__image">
-          <img scr="https://www.docplanner.com/images/rome.png" srcset="https://www.docplanner.com/images/rome.png 1x, https://www.docplanner.com/images/rome@2x.png 2x">
-        </figure>
-        <div class="office__desc">
-          Rome
-          <span class="btn btn--small">See openings</span>
-        </div>
-      </a>
-    </div>
+            <a href="/career?&amp;loc=italy#jobs-offers" class="office__inner">
+              <figure class="office__image">
+                <img
+                  scr="https://www.docplanner.com/images/rome.png"
+                  srcset="
+                    https://www.docplanner.com/images/rome.png    1x,
+                    https://www.docplanner.com/images/rome@2x.png 2x
+                  "
+                />
+              </figure>
+              <div class="office__desc">
+                <span>Rome</span>
+                <button class="btn btn-primary btn-sm">See openings</button>
+              </div>
+            </a>
+          </div>
           <div class="office">
-      <a href="/career?&amp;loc=mexico#jobs-offers" class="office__inner">
-        <figure class="office__image">
-          <img scr="https://www.docplanner.com/images/mexico-city.png" srcset="https://www.docplanner.com/images/mexico-city.png 1x, https://www.docplanner.com/images/mexico-city@2x.png 2x">
-        </figure>
-        <div class="office__desc">
-          Mexico City
-          <span class="btn btn--small">See openings</span>
-        </div>
-      </a>
-    </div>
+            <a href="/career?&amp;loc=mexico#jobs-offers" class="office__inner">
+              <figure class="office__image">
+                <img
+                  scr="https://www.docplanner.com/images/mexico-city.png"
+                  srcset="
+                    https://www.docplanner.com/images/mexico-city.png    1x,
+                    https://www.docplanner.com/images/mexico-city@2x.png 2x
+                  "
+                />
+              </figure>
+              <div class="office__desc">
+                Mexico <span>City</span>
+                <button class="btn btn-primary btn-sm">See openings</button>
+              </div>
+            </a>
+          </div>
           <div class="office">
-      <a href="/career?&amp;loc=brazil#jobs-offers" class="office__inner">
-        <figure class="office__image">
-          <img scr="https://www.docplanner.com/images/curitiba.png" srcset="https://www.docplanner.com/images/curitiba.png 1x, https://www.docplanner.com/images/curitiba@2x.png 2x">
-        </figure>
-        <div class="office__desc">
-          Curitiba
-          <span class="btn btn--small">See openings</span>
+            <a href="/career?&amp;loc=brazil#jobs-offers" class="office__inner">
+              <figure class="office__image">
+                <img
+                  scr="https://www.docplanner.com/images/curitiba.png"
+                  srcset="
+                    https://www.docplanner.com/images/curitiba.png    1x,
+                    https://www.docplanner.com/images/curitiba@2x.png 2x
+                  "
+                />
+              </figure>
+              <div class="office__desc">
+                <span>Curitiba</span>
+                <button class="btn btn-primary btn-sm">See openings</button>
+              </div>
+            </a>
+          </div>
         </div>
-      </a>
-    </div>
-      </div>
       </section>
     </main>
-    <footer class="">
+    <footer class="main-footer">
       <div>
         <p>
           We are leaders in 10 countries:
